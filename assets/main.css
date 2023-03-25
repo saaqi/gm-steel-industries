@@ -25,8 +25,8 @@ html {
 body {
 	background-color: #fff;
 	color: #000;
-	font-family: Lato, sans-serif;
-	font-weight: 700;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	margin: 0;
@@ -82,8 +82,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Lato, sans-serif;
-	font-weight: 900;
+	font-weight: 700;
 	font-style: normal;
 	line-height: 1.2;
 	margin: 0 0 20px;
@@ -203,6 +202,7 @@ a {
 
 .section-heading {
 	border-bottom: 1px solid #333;
+	font-size: 2rem;
 	margin-bottom: 4rem;
 	padding-bottom: 1rem;
 }
@@ -256,7 +256,6 @@ a {
 .home-section .row h2 {
 	color: #fff;
 	font-size: 2rem;
-	font-weight: 700;
 	margin-bottom: 4rem;
 }
 
@@ -265,7 +264,6 @@ a {
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 -3px 0 rgb(0 0 0 / 20%) inset;
 	box-shadow: 0 -3px 0 rgb(0 0 0 / 20%) inset;
-	font-family: Lato, sans-serif;
 	font-weight: 700;
 	border-radius: .5rem;
 	padding: 16px 24px;
@@ -345,15 +343,6 @@ a {
 	border-bottom-color: #ccc;
 }
 
-.our-mission .row p {
-/*	font-size: 2rem;*/
-	font-family: Lato, sans-serif;
-	font-weight: 700;
-}
-
-
-
-
 
 
 /* ### Contact US Section */
@@ -367,7 +356,7 @@ a {
 	-ms-grid-columns: 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
 	-ms-grid-gap: 3rem;
-	grid-gap: 3rem;
+	grid-gap: 6rem;
 	width: 100%;
 }
 
@@ -376,7 +365,6 @@ a {
 }
 
 ul.address-contact > li {
-	font-family: Lato, sans-serif;
 	font-size: 1.6rem;
 	font-style: normal;
 	font-weight: 700;
@@ -390,6 +378,7 @@ ul.address-contact > li > a {
 }
 
 .address-link {
+	font-weight: 700;
 	margin-bottom: 4rem;
 }
 
@@ -398,7 +387,6 @@ ul.address-contact > li > a {
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 -3px 0 rgb(0 0 0 / 20%) inset;
 	box-shadow: 0 -3px 0 rgb(0 0 0 / 20%) inset;
-	font-family: Lato, sans-serif;
 	font-weight: 700;
 	color: #f0f0f0;
 	border-radius: .5rem;
@@ -503,8 +491,6 @@ ul.address-contact > li > a {
 		-ms-flex-pack: justify;
 		justify-content: space-between;
 		padding: 2rem 5%;
-		font-family: Lato, sans-serif;
-		font-weight: 700;
 }
 
 .site-footer .powered a {
@@ -605,7 +591,6 @@ ul.address-contact > li > a {
 }
 
 .primary-menu a {
-	font-family: Lato, sans-serif;
 	font-weight: 700;
 	line-height: 96px;
 	text-transform: uppercase;
