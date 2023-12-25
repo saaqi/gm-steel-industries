@@ -1,0 +1,45 @@
+{
+  "name": "steel-melter-company-introduction-website-template",
+  "version": "1.0.0",
+  "description": "An HTML5 single page website template. This is a single page website template for a Steel Melter Company Introduction. The website has a fully responsive header area, products section, mission statement, contact area with WhatsApp, Google maps and call links, gallery section, and footer section. This website template can be used by any steel melter company to showcase their products, services, and company information.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "test": "vite preview",
+    "push": "git add . && git commit -m \"patch fixes\" && npm version patch && git push"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "vite": "^5.0.0",
+    "vite-plugin-minify": "^1.5.2",
+    "vite-plugin-webfont-dl": "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saaqi/gm-steel-industries.git"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "fslightbox": "^3.4.1"
+  },
+  "keywords": [
+    "company",
+    "factory",
+    "inroduction",
+    "website",
+    "tempalte",
+    "html5",
+    "vite"
+  ],
+  "author": "Saqib Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saaqi/gm-steel-industries/issues"
+  },
+  "homepage": "https://github.com/saaqi/gm-steel-industries#readme"
+}
